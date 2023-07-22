@@ -1,0 +1,43 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(85, 85, 255);
+    font-family: 'helvetica neue';
+    text-align: center;
+
+}
+body {
+    margin: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex: 1;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.main { 
+    margin-left: 30%;
+  
+}
+.circle {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-3px);
+
+}
+.hand {
+     
+     margin-left: 130px;  
+    margin-bottom: 150px; 
+     width: 5%; 
+     height: 5px; 
+    top: 50%; 
+    position: absolute;
+    background: black;
+    transform-origin: 172%; 
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
